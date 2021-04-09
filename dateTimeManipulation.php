@@ -9,7 +9,14 @@
 <body>
     <h1>PHP - Date/Time Manipulation</h1>
 
-    <?php ?>
+    <?php 
+        $todayDate = getdate();
+        // function=> getdate() returns an array containing 3 elements - mday, mon and year
+        echo "Date today is : ".$todayDate['mday'].'/'.$todayDate['mon'].'/'.$todayDate['year'].'<br>';
+        
+        // date() fucntion convert time() into readable format
+        print date(('m/d/y G:i:s<br>'),time()). '<br>';
+    ?>
     
     <a href="index.php">Go back to Home Page</a>
 </body>

@@ -34,7 +34,8 @@
        <li><a href="whileDoWhileLoop.php">While & do While Loops</a></li>
        <li><a href="array.php">Simple Arrays</a></li>
        <li><a href="stringManipulation.php">String Manipulation</a></li>
-       <li><a href="dateTimeManipulation.php">String Manipulation</a></li>
+       <li><a href="dateTimeManipulation.php">Date and Time Manipulation</a></li>
+       <li><a href="simpleFunctions.php">Simple Functions</a></li>
     </ul>
     
 </body>

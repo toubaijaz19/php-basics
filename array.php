@@ -13,7 +13,7 @@
         $num =10;
         // ARRAYS
         $numbers = array(1,2,3,4,5,6,7,67,4,2,89,76,42,12,9,3);
-
+        
         // How to count array's elements
         $size = count($numbers);
         echo '<p>numbers array have '.$size.' elements</p>';
